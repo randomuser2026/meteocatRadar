@@ -111,7 +111,7 @@
         if (!document.getElementById('sonido-rayo')) {
             const audio = document.createElement('audio');
             audio.id = 'sonido-rayo';
-            audio.src = 'sounds/lightning.mp3'; // Reliable public URL
+            audio.src = 'lightning.mp3'; // Reliable public URL
             audio.preload = 'auto';
             document.body.appendChild(audio);
         }
@@ -249,3 +249,4 @@
     // Controls logic moved to initLightning
 
 })(); // End IIFE
+
